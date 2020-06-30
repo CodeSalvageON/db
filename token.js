@@ -5,4 +5,6 @@ var char_type = '';
 function getAccountAttributes() {
    ship_name = document.getElementById('shipname').value;
    localStorage.setItem('name', ship_name);
+   
+   location = 'https://starcrap2--codesalvageon.repl.co/scenes/logged_in.html';
 }
