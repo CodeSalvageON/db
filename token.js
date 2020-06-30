@@ -8,3 +8,7 @@ function getAccountAttributes() {
    
    location = 'https://starcrap2--codesalvageon.repl.co/scenes/logged_in.html';
 }
+
+function setAccountInName() {
+   document.getElementById('item').innerText = 'Ship Name: '+localStorage.getItem('name');
+}
